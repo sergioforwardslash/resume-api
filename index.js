@@ -8,6 +8,6 @@ app.use(cors());
 const mailer = require("./routes/Mailer");
 app.use("/", mailer);
 
-app.listen(8002, () => {
-  console.log("SergioAPI Server running on port 8002");
+app.listen(8001, () => {
+  console.log("SergioAPI Server running on port 8001");
 });
