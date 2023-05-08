@@ -4,7 +4,7 @@ const router = express.Router();
 
 const nodemailer = require("nodemailer");
 
-router.post("/api/contactme", async (req, res) => {
+router.post("/contactme", async (req, res) => {
   const { name, email, message } = req.body;
 
   if (!name || !email || !message) {
